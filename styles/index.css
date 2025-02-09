@@ -9,8 +9,7 @@
 }
 
 body {
-    height: 100vh; 
-    /* height: 5000px; */
+    height: 96vh;
     background-color: rgb(238, 237, 237);
     display: flex;
     justify-content: center;
