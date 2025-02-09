@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'PP Editorial Old';
+    src: url(/assets/PP\ Editorial\ Old\ -\ Free\ For\ Personal\ Use\ v1.0/otf/PPEditorialOld-Regular.otf);
+}
+
+@font-face {
+    font-family: 'OT Brut';
+    src: url(/assets/OT\ Brut/OTF/OTBrut-Italic.otf);
+}
+
+body {
+    height: 100vh; 
+    /* height: 5000px; */
+    background-color: rgb(238, 237, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: PP Editorial Old;
+    color: rgb(15, 11, 252);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quiz-container-off {
+    display: none;
+}
+
+.flower-img {
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+.quiz-logo {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.level-counter {
+    margin-top: 0;
+}
+
+.quiz-quest-container {
+    width: 100%;
+    background-color: rgb(219, 224, 255);
+    padding: 20px 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.quest-button-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.quest-button {
+    background-color: rgb(15, 11, 252);
+    color: rgb(238, 237, 237);
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.wrong-button {
+    background-color: rgb(220, 20, 60);
+    color: rgb(238, 237, 237);
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.correct-button {
+    background-color: rgb(4, 201, 4);
+}
+
+.quest-input, .quest-text {
+    width: 90%;
+    padding: 10px 10px;
+    color: rgb(15, 11, 252);
+    font-family: OT Brut;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.quest-input-wrong {
+    background-color: rgb(220, 20, 60);
+    color: rgb(238, 237, 237);
+}
+
+.quest-input-correct {
+    background-color: rgb(4, 201, 4);
+    color: rgb(238, 237, 237);
+}
+
+.quest-input::placeholder, .quest-text::placeholder {
+    color: rgb(15, 11, 252);
+    font-family: OT Brut;
+    font-size: 16px;
+}
+
+.quest-input-off {
+    display: none;
+}
+
+.quest-button-container-off {
+    display: none;
+}
+
+.letter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.letter-container-off {
+    display: none;
+}
+
+.letter-img {
+    width: 200px;
+    border-radius: 2px;
+    margin: 0px;
+    margin-bottom: 15px;
+    transition: scale .05s;
+}
+
+.letter-img:active {
+    scale: 96%;
+}
+
+.message-container {
+    background-color: rgb(219, 224, 255);
+    padding: 30px 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message-container-off {
+    display: none;
+}
+
+.letter-icon {
+    width: 98%;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+
+.message {
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.emphasis {
+    font-family: OT Brut;
+}
+
+.button, .submit-button {
+    display: inline-block;
+    background-color: rgb(15, 11, 252);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.submit-button-off {
+    display: none;
+}
+
+.valentine-container {
+    display: flex;
+    padding: 30px 15px;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.valentine-container-off {
+    display: none;
+}
+
+.val-quest {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.val-buttons-container {
+    display: flex;
+    column-gap: 10px;
+}
+
+.val-button {
+    display: inline-block;
+    background-color: rgb(15, 11, 252);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 50px;
+    width: 40px;
+    text-align: center;
+}
+
+.no {
+    background-color: rgb(220, 20, 60);
+}
+
+.valentine-img {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 5px;
+}
