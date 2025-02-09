@@ -8,8 +8,12 @@
     src: url(/assets/OT\ Brut/OTF/OTBrut-Italic.otf);
 }
 
+html, body {
+  overflow: hidden;
+}
+
 body {
-    height: 96vh;
+    min-height: 100vh;
     background-color: rgb(238, 237, 237);
     display: flex;
     justify-content: center;
