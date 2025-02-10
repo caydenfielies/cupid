@@ -157,9 +157,9 @@ body {
     transition: scale .05s;
 }
 
-.letter-img:active {
+/* .letter-img:active {
     scale: 96%;
-}
+} */
 
 .message-container {
     width: 85%;

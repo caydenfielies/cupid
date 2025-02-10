@@ -142,7 +142,7 @@ function level3() {
     questInput.classList.add('quest-input-off');
     questText.classList.remove('quest-input-off');
     responseText.classList.add('response-off');
-    
+
     questInput.value = '';
 
     submitButton.addEventListener("click", () => {
@@ -156,7 +156,13 @@ function level3() {
 // letter
 const letter = document.querySelector('.letter-img');
 
-letter.addEventListener("click", () => {
+letter.addEventListener("touchstart", () => {
+    myDiv.style.transform = "scale(0.96)";
+});
+
+letter.addEventListener("touchend", () => {
+    myDiv.style.transform = "scale(1)";
+
     setTimeout(() => {
         letterContainer.classList.add('letter-container-off');
         messageContainer.classList.remove('message-container-off');
