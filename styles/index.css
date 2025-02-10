@@ -8,12 +8,9 @@
     src: url(/assets/OT\ Brut/OTF/OTBrut-Italic.otf);
 }
 
-html, body {
-  overflow: hidden;
-}
-
 body {
-    min-height: 100vh;
+    min-height: 100vh; 
+    margin: 0;
     background-color: rgb(238, 237, 237);
     display: flex;
     justify-content: center;
@@ -50,6 +47,18 @@ body {
 
 .level-counter {
     margin-top: 0;
+}
+
+.response {
+    background-color: rgb(219, 224, 255);
+    padding: 13px 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.response-off {
+    display: none;
 }
 
 .quiz-quest-container {
@@ -100,6 +109,8 @@ body {
     font-family: OT Brut;
     font-size: 16px;
     margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
 }
 
 .quest-input-wrong {
@@ -150,6 +161,7 @@ body {
 }
 
 .message-container {
+    width: 85%;
     background-color: rgb(219, 224, 255);
     padding: 30px 15px;
     border-radius: 5px;
