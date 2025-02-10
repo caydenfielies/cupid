@@ -166,7 +166,7 @@ letter.addEventListener("touchend", () => {
     setTimeout(() => {
         letterContainer.classList.add('letter-container-off');
         messageContainer.classList.remove('message-container-off');
-    }, 500);
+    }, 100);
 });
 
 // message
@@ -177,4 +177,13 @@ continueButton.addEventListener("click", () => {
         messageContainer.classList.add('message-container-off');
         valentineContainer.classList.remove('valentine-container-off');
     }, 500);
+});
+
+// valentine
+const yesButton = document.querySelector('.yes');
+const noButton = document.querySelector('.no');
+
+noButton.addEventListener("click", () => {
+    noButton.innerText = 'Yes';
+    noButton.style.backgroundColor = "rgb(118, 6, 156)";
 });
