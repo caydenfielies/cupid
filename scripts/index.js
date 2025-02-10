@@ -157,12 +157,12 @@ function level3() {
 const letter = document.querySelector('.letter-img');
 
 letter.addEventListener("touchstart", () => {
-    myDiv.style.transform = "scale(0.96)";
+    letter.style.transform = "scale(0.96)";
 });
 
 letter.addEventListener("touchend", () => {
-    myDiv.style.transform = "scale(1)";
-
+    letter.style.transform = "scale(1)";
+    
     setTimeout(() => {
         letterContainer.classList.add('letter-container-off');
         messageContainer.classList.remove('message-container-off');

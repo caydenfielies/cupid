@@ -154,12 +154,8 @@ body {
     border-radius: 2px;
     margin: 0px;
     margin-bottom: 15px;
-    transition: scale .05s;
+    transition: transform .05s ease-in-out;
 }
-
-/* .letter-img:active {
-    scale: 96%;
-} */
 
 .message-container {
     width: 85%;
